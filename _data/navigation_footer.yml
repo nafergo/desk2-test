@@ -1,0 +1,13 @@
+# Footer navigation links
+
+- title: © Micromata GmbH
+  url: https://www.micromata.de/
+
+- title: Impressum
+  url: /imprint
+
+- title: Datenschutz
+  url: /privacy-policy
+
+- title: Anfahrt
+  url: https://www.micromata.de/anfahrt/

@@ -1,0 +1,18 @@
+# Add file names for sidebar navigation
+
+- title: Micromata Projekte
+  docs:
+  - baumeister
+  - check-packages
+  - cli-error-notifier
+  - dave
+  - gwiki
+  - http-fake-backend
+  - hungry-fetch
+  - java-api-for-kml
+  - jira-rest-client
+  - projectforge
+  - sawdust
+  - tpsb
+  - home-made-projekte
+

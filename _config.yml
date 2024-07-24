@@ -1,0 +1,197 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site title and description
+title:              Micromata Labs
+description:        Home of Micromata Open Source Projects.
+lang:               de
+
+# Site subpath, e.g. /blog
+baseurl:            "/desk2-test"
+
+# Permalink URLs structure, for permalink style options see: https://jekyllrb.com/docs/permalinks/
+permalink:          /:title/
+
+# Site base hostname & protocol, e.g. http://example.com
+url:                "https://nafergo.github.io"
+
+# Site logo # e.g. logo.png, upload logo image file to /uploads/ folder
+logo:               signet-labs.svg
+
+navbar:
+    sticky:         true
+    search:         false
+  
+# Default author settings
+author:
+    name:          Admin
+    title:         
+    avatar:        avatar-default.jpg
+
+# Author settings, displayed on post and doc pages if front matter references author name e.g. author: peter
+authors:
+  abestvater:
+    name:         Andy Bestvater
+    title:        Developer
+    avatar:       avatar-abestvater.jpg
+  atippel:
+    name:         André Tippel
+    title:        Developer
+    avatar:       avatar-default.jpg
+  cclaus:
+    name:         Christian Claus
+    title:        Developer
+    avatar:       avatar-cclaus.jpg
+  ckuehl:
+    name:         Christian Kühl
+    title:        Frontend Developer
+    avatar:       avatar-default.jpg
+    email:        ckuehl(at)micromata.de
+  dludwig:
+    name:         Daniel Ludwig
+    title:        Architect, Developer
+    avatar:       avatar-dludwig.jpg
+  mfroehner:
+    name:         Moritz Fröhner
+    title:        UX
+    avatar:       avatar-mfroehner.jpg
+  hthole:
+    name:         Hendrik Thole
+    title:        Projektmanager
+    avatar:       avatar-hthole.jpg
+  jfast:
+    name:         Jürgen Fast
+    title:        Softwareentwickler
+    shortdesc:    Jürgen Fast arbeitet seit 2014 bei der Micromata GmbH als Softwareentwickler in verschiedenen Projekten der Logistik- und Automobilbranche. Sein Schwerpunkt liegt in der Entwicklung von javabasierten Webapplikationen.
+    avatar:       avatar-jfast.jpg
+    email:        jfast(at)micromata.de
+  kreinhard:
+    name:         Kai Reinhard
+    title:        Architect, Developer
+    avatar:       avatar-kreinhard.jpg
+  mkuehnel:
+    name:         Michael Kühnel
+    title:        Frontend Developer
+    shortdesc:    Michael ist seit Netscape 4.7.8 im Geschäft und freut sich, dass dank Webstandards seitdem alles besser wird. Folge Michael bei <a href="https://twitter.com/mkuehnel">Twitter</a> oder <a href="https://github.com/mischah">GitHub</a>.
+    avatar:       avatar-mkuehnel.jpg
+    email:        mkuehnel(at)micromata.de
+  pmandler:
+    name:         Philipp Mandler
+    title:        Softwareentwickler
+    avatar:       avatar-pmandler.jpg
+    email:        p.mandler(at)micromata.de
+  cstein:
+    name:         Christian Stein
+    title:        Softwareentwickler
+    shortdesc:    
+    avatar:       avatar-default.jpg
+  cschulze:
+    name:         Christian Schulze
+    title:        Softwareentwickler
+    avatar:       avatar-default.jpg
+    shortdesc:    Christian Schulze arbeitet seit 2008 bei der Micromata. Zu Beginn als Werkstudent und ab 2011 als Softwareentwickler für verschiedene Projekte im Bereich Bergbau, Gashandel, Automobilbranche und Forschung. Sein Schwerpunkt liegt in der Entwicklung von javabasierten Webapplikationen und der Frontendentwicklung.
+  rkommer:
+    name:         Roger René Kommer
+    title:        Softwareentwickler
+    shortdesc:    <p>Roger René Kommer vom Ingenieurbüro <em><strong>artefaktur</strong></em>, Architekt und Softwareentwickler, versteht sich als Generalist, der für jedes Projekt zum Spezialisten werden muss. Detail und Ganzes, Innen und Außen, Material und Form, Sprache und Ausdruck, Regel und Bruch, Anforderung und Kontext sind Spannungsfelder, in dem er Softwareentwicklung auch als kompositorische Herausforderung versteht.</p><p>Seit 20 Jahren ist Roger mit Micromata freundschaftlich verbunden, mit der er zusammen viele tolle Projekte durchgeführt hat.</p>
+    avatar:       avatar-default.jpg
+  nmollenhauer:
+    name:         Niklas Mollenhauer
+    title:        Full-Stack-Entwickler mit Leidenschaft für API-, DX- und Language-Design.
+    shortdesc:    Folge Niklas auf <a href="https://github.com/nikeee">GitHub</a>.
+    avatar:       avatar-default.jpg
+    email:        nmollenhauer(at)micromata.de
+  tmueller:
+    name:         Thomas Müller
+    title:        Softwareentwickler mit Schwerpunkt Jakarta EE
+    shortdesc:    Sternzeichen Elektroingenieur, Radreise Entusiast
+    avatar:       avatar-default.jpg
+    email:        t.mueller(at)micromata.de
+
+
+
+# Social icons displayed in footer
+social:
+    email:
+    website:        https://labs.micromata.de
+    facebook:
+    flickr:
+    dribbble:
+    github:         https://github.com/micromata/
+    googleplus:
+    instagram:      https://www.instagram.com/micromata/
+    linkedin:
+    pinterest:
+    twitter:        https://twitter.com/micromata
+    vimeo:          https://vimeo.com/user44553474
+    youtube:
+
+# Share button
+share:
+    post:           false # Display share buttons on a post page
+    doc:            false # Display share buttons on a doc page
+    twitter:        username # Enable by adding Twitter handle 
+    facebook:       false # Enable by setting true (Facebook handle not required)
+
+# Default footer image settings
+footer:
+    copyright:      <a href="https://micromata.de/">&copy; Micromata GmbH</a>
+
+# Disqus comments shortname, requires Disqus account https://disqus.com/
+disqus:
+    shortname:      # 1234
+
+# Google analytics code, get your code here https://www.google.com/analytics/
+google_analytics:
+
+# Number of posts displayed on blog page
+paginate:           10
+
+# Blog path
+paginate_path:      "/blog/:num/"
+
+# Path to post content assets directory i.e post images, pdfs etc
+uploads:            /uploads/
+
+# Build settings
+markdown:           kramdown
+highlighter:        rouge
+
+gems:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-gist
+  - jekyll-avatar
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+
+sass:
+  style:            compressed
+
+collections:
+  docs:
+    output:         true
+  faqs:
+    output:         false
+  changelogs:
+    output:         false
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path:         ""
+      type:         posts
+    values:
+      layout:       post
+  # _docs
+  - scope:
+      path:         ""
+      type:         docs
+    values:
+      layout:       doc
